@@ -1,3 +1,5 @@
+function calculatrice() {
+
 let firstValue = parseInt(prompt("Entrez la première valeur :"));
 let operator = prompt("Entrez l'opération (+, -, *, /) :");
 let secondeValue = parseInt(prompt("Entrez la deuxième valeur :"));
@@ -22,3 +24,13 @@ if (operator === "+") {
 }
 
 alert("Le résultat est : " + result);
+
+
+let continuer = confirm("Voulez-vous effectuer une autre opération ?");
+
+if (continuer) {
+    calculatrice(); 
+}
+}
+
+calculatrice();
