@@ -21,4 +21,4 @@ if (operator === "+") {
     console.log("Opération non reconnue.");
 }
 
-console.log("Le résultat est : " + result);
+alert("Le résultat est : " + result);

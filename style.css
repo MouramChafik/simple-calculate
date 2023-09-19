@@ -1,6 +1,20 @@
+body{
+background-image:url(assets/calcu.jpg);
+
+}
+
 h1{
-    color: brown;
+    color: whitesmoke;
     display: flex;
 align-items: center;
 justify-content: center;
+}
+
+/*#calculator-container {
+    background-image: url(assets/calcu.jpg); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    width: 300px; 
+    height: 400px;
+   */
 }
